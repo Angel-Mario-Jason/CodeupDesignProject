@@ -13,3 +13,8 @@ hr {
 .badge{
     background-color: #E6563B;
 }
+
+#circle, .border{
+    border: 2em solid white;
+}
+
