@@ -19,76 +19,88 @@
     <div style="background-color:#E6E6E6;" class="container">
         <div class="header d-flex justify-content-center bg-white">
             <div class="">
+                <a class="d-none d-sm-inline-block text-dark" href="#">SERVICES</a>
+                <a class="d-none d-sm-inline-block text-dark" href="#">WORK</a>
                 <img style="height:105px; width:105px; z-index: .5;" src="assets/logo.png" alt="">
+                <a class="d-none d-sm-inline-block text-dark" href="#">BLOG</a>
+                <a class="d-none d-sm-inline-block text-dark" href="#">CONTACT</a>
             </div>
         </div>
         <div class="">
             <h2 class="text-center">codeup design</h2>
             <div class="d-flex justify-content-around">
-                <a class="text-dark" href="#">SERVICES</a>
-                <a class="text-dark" href="#">WORK</a>
-                <a class="text-dark" href="#">BLOG</a>
-                <a class="text-dark" href="#">CONTACT</a>
+                <a class="d-sm-none text-dark" href="#">SERVICES</a>
+                <a class="d-sm-none text-dark" href="#">WORK</a>
+                <a class="d-sm-none text-dark" href="#">BLOG</a>
+                <a class="d-sm-none text-dark" href="#">CONTACT</a>
             </div>
         </div>
         <div class="location text-center">
-            <h1>VISUAL DESIGN & WEB DEVELOPMENT</h1>
+            <h1 class="col-sm">VISUAL DESIGN & WEB DEVELOPMENT</h1>
             <H2>FROM PARK CITY, UTAH</H2>
         </div>
-        <div id="circles" class="d-flex justify-content-around">
-            <div class="left">
-                <div style="background-color: #E6563B; height:105px; width:105px;" class="border border-white d-flex text-white align-items-center badge badge-pill">
+        <div id="circles" class="container">
+            <div class="row justify-content-between">
+                <div style="background-color: #E6563B; height:105px; width:105px;" class="circle2 col border border-white d-flex text-white align-items-center">
                     <h3>DESIGN</h3>
                 </div>
-                <div style="background-color: #DEA03D; height:105px; width:105px;" class="border border-white d-flex text-white align-items-center badge badge-pill">
-                    <h3>DEVELOP</h3>
-                </div>
-            </div>
-            <div class="right">
-                <div style="background-color: #7CB06C; height:105px; width:105px;" class="border border-white d-flex text-white align-items-center badge badge-pill">
+                <div style="background-color: #7CB06C; height:105px; width:105px;" class="circle2 col border border-white d-flex text-white align-items-center">
                     <h3>SUPPORT</h3>
                 </div>
-                <div style="background-color: #00ABA9; height:105px; width:105px;" class="border border-white d-flex text-white align-items-center badge badge-pill">
+                <div class="w-100 d-sm-none"></div>
+                <div style="background-color: #DEA03D; height:105px; width:105px;" class="circle2 col border border-white d-flex text-white align-items-center">
+                    <h3>DEVELOP</h3>
+                </div>
+                <div style="background-color: #00ABA9; height:105px; width:105px;" class="circle2 col border border-white d-flex text-white align-items-center">
                     <h3>HOST</h3>
                 </div>
             </div>
         </div>
         <hr>
         <p class="text-center">SELECTED WORK</p>
-        <div style="background-color: #E6E6E6" class="card">
-            <div><img class="img-fluid border border-dark card-img-top" src="assets/images/apple-ipad.jpg" alt="">
-                <div class="card-body d-flex justify-content-between">
-                    <span>FEATURED PROJECTS</span>
-                    <div>
-                        <span class="badge badge-pill">D</span><span class="badge badge-pill">D</span><span class="badge badge-pill">S</span><span class="badge badge-pill">H</span>
+        <div class="container">
+            <div class="row">
+                <div style="background-color: #E6E6E6" class="col card">
+                    <img class="img-fluid border border-dark card-img-top" src="assets/images/apple-ipad.jpg" alt="">
+                    <div class="card-body d-flex justify-content-between">
+                        <span>FEATURED PROJECTS</span>
+                        <div>
+                            <span class="badge badge-pill">D</span><span class="badge badge-pill">D</span><span class="badge badge-pill">S</span><span class="badge badge-pill">H</span>
+                        </div>
+                    </div>
+                </div>
+                <div style="background-color: #E6E6E6" class="col card">
+                    <img class="img-fluid border border-dark card-img-top" src="assets/images/macbook.jpg" alt="">
+                    <div class="card-body d-flex justify-content-between">
+                        <span>FEATURED PROJECTS</span>
+                        <div>
+                            <span class="badge badge-pill">D</span><span class="badge badge-pill">D</span><span class="badge badge-pill">S</span><span class="badge badge-pill">H</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-100 "></div>
+                <div style="background-color: #E6E6E6" class="col card">
+                    <img class="img-fluid border border-dark card-img-top" src="assets/images/man.jpg" alt="">
+                    <div class="card-body d-flex justify-content-between">
+                        <span>FEATURED PROJECTS</span>
+                        <div>
+                            <span class="badge badge-pill">D</span><span class="badge badge-pill">D</span><span class="badge badge-pill">S</span><span class="badge badge-pill">H</span>
+                        </div>
+                    </div>
+                </div>
+                <div style="background-color: #E6E6E6" class="col card">
+                    <img class="img-fluid border border-dark card-img-top" src="assets/images/security.jpg" alt="">
+                    <div class="card-body d-flex justify-content-between">
+                        <span>FEATURED PROJECTS</span>
+                        <div>
+                            <span class="badge badge-pill">D</span><span class="badge badge-pill">D</span><span class="badge badge-pill">S</span><span class="badge badge-pill">H</span>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div><img class="img-fluid border border-dark card-img-top" src="assets/images/macbook.jpg" alt="">
-                <div class="card-body d-flex justify-content-between">
-                    <span>FEATURED PROJECTS</span>
-                    <div>
-                        <span class="badge badge-pill">D</span><span class="badge badge-pill">D</span><span class="badge badge-pill">S</span><span class="badge badge-pill">H</span>
-                    </div>
-                </div>
-            </div>
-            <div><img class="img-fluid border border-dark card-img-top" src="assets/images/man.jpg" alt="">
-                <div class="card-body d-flex justify-content-between">
-                    <span>FEATURED PROJECTS</span>
-                    <div>
-                        <span class="badge badge-pill">D</span><span class="badge badge-pill">D</span><span class="badge badge-pill">S</span><span class="badge badge-pill">H</span>
-                    </div>
-                </div>
-            </div>
-            <div><img class="img-fluid border border-dark card-img-top" src="assets/images/security.jpg" alt="">
-                <div class="card-body d-flex justify-content-between">
-                    <span>FEATURED PROJECTS</span>
-                    <div>
-                        <span class="badge badge-pill">D</span><span class="badge badge-pill">D</span><span class="badge badge-pill">S</span><span class="badge badge-pill">H</span>
-                    </div>
-                </div>
-            </div>
+
         </div>
+    </div>
 
 
     </div>
