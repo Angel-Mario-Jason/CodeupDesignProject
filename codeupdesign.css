@@ -1,0 +1,15 @@
+*{
+    font-family: 'Anton', sans-serif;
+}
+
+hr {
+    color: #E6E6E6;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.badge{
+    background-color: #E6563B;
+}
